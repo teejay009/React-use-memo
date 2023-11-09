@@ -48,6 +48,7 @@ const App = () => {
       <p>Result: {randomInput}</p>
 
     </main>
+    
   )
 
 }
