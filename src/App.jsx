@@ -19,7 +19,11 @@ const App = () => {
   const fibNumber = useMemo(() => fib(userInput), [userInput, fib]);
 
   const myArray = useMemo(() => getArray(), [])
-  
+
+  useEffect(() => {
+    console.log("New Array");
+  }, [myArray])
+
   
   
   return (
