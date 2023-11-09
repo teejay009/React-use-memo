@@ -10,7 +10,7 @@ import React from 'react'
 
 const App = () => {
   const [userInput, setUserInput] = useState('')
-  const [randomInput,useRandomInput] = useState("")
+  const [randomInput,setRandomInput] = useState("")
 
   const fib = useCallback((n) => {
     return n <= 1 ? n : fib(n - 1) + fib(n - 2)
@@ -45,7 +45,7 @@ const App = () => {
       <input type="text" 
       value={randomInput}
       placeholder="thanks you are welcome"
-      onChange={(e) => setRanomInput(e.target.value)}
+      onChange={(e) => setRandomInput(e.target.value)}
       
       />
       <p>Result: {randomInput}</p>
