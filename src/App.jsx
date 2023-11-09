@@ -44,7 +44,7 @@ const App = () => {
       <label>Random Input:</label>
       
 
-      <h1>output: {userInput || "..."}</h1>
+      
 
     </main>
     
