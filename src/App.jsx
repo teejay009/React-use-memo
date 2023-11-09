@@ -29,9 +29,19 @@ const App = () => {
   return (
 
     <main className="App">
-      <input type="text" placeholder="input"
-      value={userInput} onChange={(e) => setUserInput(e.target.value)}
+      <label> Fibonacci Sequence:</label>
+      <input type="text"
+       placeholder="Position"
+      value={userInput}
+       onChange={(e) => setUserInput(e.target.value)}
       />
+
+      <P>Number: {fibNumber || "--"} </P>
+
+      <br />
+      <br />
+
+      <label>Random Input:</label>
 
       <h1>output: {userInput || "..."}</h1>
 
