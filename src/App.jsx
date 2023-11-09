@@ -42,6 +42,10 @@ const App = () => {
       <br />
 
       <label>Random Input:</label>
+      <input type="text" 
+      value={update}
+      
+      />
       
 
       
