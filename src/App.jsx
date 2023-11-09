@@ -43,7 +43,7 @@ const App = () => {
 
       <label>Random Input:</label>
       <input type="text" 
-      value={update}
+      value={randomInput}
       
       />
       
