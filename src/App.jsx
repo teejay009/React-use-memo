@@ -44,6 +44,7 @@ const App = () => {
       <label>Random Input:</label>
       <input type="text" 
       value={randomInput}
+      placeholder="thanks you are welcome"
       
       />
       
