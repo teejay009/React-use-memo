@@ -1,4 +1,10 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
+
+const getArray = () =>{
+  for(let i = 0; < 1000000000; i++) {
+
+  }return ['Muhammad', "Good Boy"]
+}
 
 import React from 'react'
 
@@ -26,7 +32,7 @@ const App = () => {
       value={userInput} onChange={(e) => setUserInput(e.target.value)}
       />
 
-      <h1>outPut: {userInput || "..."}</h1>
+      <h1>output: {userInput || "..."}</h1>
 
     </main>
     
