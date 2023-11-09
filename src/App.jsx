@@ -45,6 +45,7 @@ const App = () => {
       <input type="text" 
       value={randomInput}
       placeholder="thanks you are welcome"
+      onChange={(e) => setRanomInput(e.target.value)}
       
       />
       
